@@ -1,7 +1,32 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
+}
+.App {
+  width: 100vh;
+  height: 100vh;
+  background-color: gray;
+  position: relative;
+  margin: 0 auto;
 }
 
+.switcher {
+  position: fixed;
+  top: 20px;
+  left: calc(50vw - 50vh + 20px) ;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+  border-radius: 20px;
+  width: 150px;
+}
+.switcher_ligth {
+  background-color: lightblue ;
+  color:navy ;
+}
+.switcher_dark {
+  background-color: navy;
+  color: bisque;
+}
 
